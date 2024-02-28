@@ -1,0 +1,22 @@
+{
+  "name": "2fa",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/node": "^20.11.21",
+    "@types/qrcode": "^1.5.5",
+    "@types/speakeasy": "^2.0.10",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0"
+  }
+}
